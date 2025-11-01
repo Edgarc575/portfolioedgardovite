@@ -1,10 +1,10 @@
+@import 'elementos.less';
 @import 'variables.less';
-@import 'flexSystem.less';
-@import 'spaceSystem.less';
-@import 'gridSystem.less';
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
 }
 :root {
     --primary-color: @background-primary;
@@ -17,14 +17,16 @@ body {
     height: 100%;
     padding:0px;
     margin:0px;
-    .flex();
-    .flex-col();
+    background-color: #000;
 }
+
 @import "header.less";
-main{
-    flex:1;
+
+header{
+
+    font-size: 90px;
 }
-@import "heropanel.less";
-footer{
-    background-color: @background-primary;
+main{
+    padding: 200;
+    background-color: #000;
 }

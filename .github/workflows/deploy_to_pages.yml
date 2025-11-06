@@ -1,4 +1,4 @@
-name: VITE MPA Proceso de Despliegue a Github Pages - PortafolioActualizadoEdgardo
+name: VITE MPA Proceso de Despligue a Github Pages
 
 on:
   push:
